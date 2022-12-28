@@ -18,7 +18,7 @@
 #### Clone the project
 
 ```shell
-$ git clone git@github.com:trunglive/storefront-backend-project.git
+$ git clone https://github.com/minasarkies/fwd-fullstack-project2.git
 ```
 
 #### Run on local
