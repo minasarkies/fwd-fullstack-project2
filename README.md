@@ -25,8 +25,11 @@ $ git clone https://github.com/minasarkies/fwd-fullstack-project2.git
 
 ```shell
 $ cd storefront-backend-project
-$ npm install
-$ npm start
+$ yarn install
+$ npm run test
+$ npm run dev # for dev environment
+$ npm run startmon
+$ npm run start
 ```
 
 #### Initialize PostgreSQL and connect to database
