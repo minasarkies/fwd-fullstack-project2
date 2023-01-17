@@ -9,9 +9,9 @@ export class ProductStore {
   async index(): Promise<Product[]> {
     try {
       const sql = "SELECT * FROM products;";
-      console.log('here')
+      console.log("here");
       const conn = await client.connect();
-            console.log('here')
+            console.log("here");
 
       const result = await conn.query(sql);
 

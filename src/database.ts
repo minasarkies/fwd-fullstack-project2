@@ -13,7 +13,7 @@ const {
 } = process.env;
 
 console.log(ENV);
-if(ENV === 'dev'){
+if(ENV === "dev"){
     Client = new Pool({
         user: POSTGRES_USER,
         host: POSTGRES_HOST,
@@ -21,7 +21,7 @@ if(ENV === 'dev'){
         password: POSTGRES_PASSWORD,
         port: 3000
     });
-} else if(ENV === 'test'){
+} else if(ENV === "test"){
     Client = new Pool({
       user: POSTGRES_USER,
       host: POSTGRES_HOST,

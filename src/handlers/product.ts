@@ -1,14 +1,14 @@
 import express, { Request, Response } from "express";
 import { Product, ProductStore } from "../models/product";
 import verifyAuthToken from "../middleware/verifyAuthToken";
-console.log(`########## ->1`)
+console.log("########## ->1");
 
 const store = new ProductStore();
 
 const index = async (_req: Request, res: Response) => {
-  console.log(`########## ->2`)
+  console.log("########## ->2");
   const products = await store.index();
-  console.log(`########## ->3 : ${products}`)
+  console.log(`########## ->3 : ${products}`);
   res.json(products);
 };
 
